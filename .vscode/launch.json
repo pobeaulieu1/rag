@@ -20,6 +20,15 @@
       "console": "integratedTerminal"
     },
     {
+      "name": "Run RAG (agentic)",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/rag-agentic.py",
+      "python": "${workspaceFolder}/.venv/bin/python",
+      "envFile": "${workspaceFolder}/.env",
+      "console": "integratedTerminal"
+    },
+    {
       "name": "Run RAG (branching)",
       "type": "debugpy",
       "request": "launch",

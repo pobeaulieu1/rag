@@ -6,3 +6,5 @@ python-dotenv>=1.0.0
 numpy
 langchain-community>=0.3.0
 pypdf>=4.0.0
+bcrypt
+PyJWT
