@@ -11,6 +11,33 @@
       "console": "integratedTerminal"
     },
     {
+      "name": "Run RAG Langchain (branching)",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/rag-langchain-branching.py",
+      "python": "${workspaceFolder}/.venv/bin/python",
+      "envFile": "${workspaceFolder}/.env",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Run RAG (branching)",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/rag-branching.py",
+      "python": "${workspaceFolder}/.venv/bin/python",
+      "envFile": "${workspaceFolder}/.env",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Run RAG (reranker)",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/rag-reranker.py",
+      "python": "${workspaceFolder}/.venv/bin/python",
+      "envFile": "${workspaceFolder}/.env",
+      "console": "integratedTerminal"
+    },
+    {
       "name": "Run RAG (vanilla)",
       "type": "debugpy",
       "request": "launch",
