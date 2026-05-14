@@ -20,6 +20,15 @@
       "console": "integratedTerminal"
     },
     {
+      "name": "Run RAG (LlamaIndex)",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/rag-llamaindex.py",
+      "python": "${workspaceFolder}/.venv/bin/python",
+      "envFile": "${workspaceFolder}/.env",
+      "console": "integratedTerminal"
+    },
+    {
       "name": "Run RAG (agentic)",
       "type": "debugpy",
       "request": "launch",

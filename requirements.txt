@@ -8,3 +8,6 @@ langchain-community>=0.3.0
 pypdf>=4.0.0
 bcrypt
 PyJWT
+llama-index-core
+llama-index-llms-openai
+llama-index-embeddings-openai
